@@ -1,6 +1,6 @@
 # Astro Compute Lab
 
-An interactive playground of **scientific computing in Python** with a lightweight **web interface** (Flask + HTML/CSS/JS).  
+An interactive interface for **scientific computing in Python** with a lightweight **web interface** (Flask + HTML/CSS/JS).  
 Explore **orbital mechanics**, **Monte Carlo methods**, and **chaotic systems**.
 
 ## Features
