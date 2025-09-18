@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Astro Compute Lab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Astro Compute Lab</h1>
+    <p>Note: Only works when app.py is running on your local machine! (Otherwise, it is just a fancy wallpaper.)</p>
+  </header>
+
+  <main>
+    <section id="orbital">
+      <h2>Orbital Mechanics Simulator</h2>
+      <p>Enter initial conditions to simulate orbits.</p>
+      <form id="orbital-form">
+        <label>Mass (kg): <input type="number" id="mass" value="5.97e24"></label>
+        <label>Velocity (m/s): <input type="number" id="velocity" value="7800"></label>
+        <button type="submit">Simulate</button>
+      </form>
+      <div id="orbital-result"></div>
+    </section>
+
+    <section id="monte-carlo">
+      <h2>Monte Carlo π Estimator</h2>
+      <p>Run a Monte Carlo experiment to estimate π.</p>
+      <form id="mc-form">
+        <label>Iterations: <input type="number" id="iterations" value="10000"></label>
+        <button type="submit">Run</button>
+      </form>
+      <div id="mc-result"></div>
+    </section>
+
+    <section id="chaos">
+      <h2>Chaos: Double Pendulum</h2>
+      <p>Visualize a chaotic double pendulum simulation.</p>
+      <button id="chaos-run">Run Simulation</button>
+      <div id="chaos-result"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created with Python, HTML, and CSS — © 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
